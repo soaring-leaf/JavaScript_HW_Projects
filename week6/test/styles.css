@@ -1,0 +1,18 @@
+body {
+    background-color: lemonchiffon;
+}
+
+.top-nav ul {
+    display: flex;
+    list-style-type: none;
+    width: 50vw;
+    justify-content: space-around;
+}
+
+#red-text {
+    color: red;
+}
+
+#hidden {
+    display: none;
+}

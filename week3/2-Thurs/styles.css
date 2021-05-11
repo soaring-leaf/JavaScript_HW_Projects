@@ -1,0 +1,7 @@
+.inactive {
+    color: lightgrey;
+}
+
+.strike {
+    text-decoration: line-through;
+}

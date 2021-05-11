@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Ah, HELP!</h1>
+
+        <ul id="campuses">
+        </ul>
+
+        <p id="error-text"></p>
+        <form>
+            <input type="text" id="location-input">
+            <input type="submit" id="location-button" value="Submit New Location">
+        </form>
+
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <script id="hello-world-template" type = "text/x-handlebars-template">
+            <h1>{{ helloTitle }}</h1>
+            <p>{{ helloContent }}</p>
+        </script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>

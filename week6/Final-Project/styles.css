@@ -1,0 +1,70 @@
+body {
+    background-color: lemonchiffon;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: royalblue;
+}
+
+.container label {
+    color:sienna;
+}
+
+#hidden {
+    display: none;
+}
+
+header {
+    background-color:royalblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header nav {
+    padding: 10px 2%;
+    width: 76%;
+    float: right;
+    text-align: right;
+    line-height: 30px;
+    margin-top: 0;
+    position: relative;
+    vertical-align: middle;
+}
+
+header h1 {
+    color: rgb(92, 6, 6);
+    padding: 10px 2%;
+    margin: 0;
+    width: 25%;
+    float: left;
+    padding-left: 0;
+}
+
+.user-container {
+    margin-top: 100px;
+}
+
+.user-container form ul {
+    list-style-type: none;
+}
+
+/* Main Section */
+#main {
+    margin-top: 50px;
+}
+
+/* Individual Article (Post) Styling */
+.article {
+    background-color: yellowgreen;
+    border-bottom: 1px solid #ccc;
+    transition: 0.2s all;
+}
+
+.article .opts {
+    float: right;
+    width: 25%;
+}
